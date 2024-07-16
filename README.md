@@ -63,7 +63,7 @@ input.csvの構成は以下の通りです。
 <br>
 <br>
 
-2. プログラム実行後、電力消費計算結果がenergy_consumption.csvとして出力されます。energy_consumption.csvの構成は以下の通りです。  
+2. プログラム実行後、電力消費算出結果がenergy_consumption.csvとして出力されます。energy_consumption.csvの構成は以下の通りです。  
 
 | 列名       | データ型    | 説明                       |
 |------------|-----------|----------------------------|
@@ -93,7 +93,7 @@ input.csvの構成は以下の通りです。
 
 ## 必要なライブラリ
 * Python 3
-* Numpy
+* NumPy
 
 <br>
 
