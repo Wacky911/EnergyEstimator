@@ -87,7 +87,7 @@ input.csvの構成
 | speed_kmph      | 浮動小数点数| 車速[km/h]                  |
 | gradient_rad   | 浮動小数点数| 勾配[rad]                  |
 | energy_consumption_kw   | 浮動小数点数| 電力消費(瞬時値)[kw]                  |
-| energy_consumption_kWh   | 浮動小数点数| 電力消費(積算値)[kWh]                  |
+| energy_consumption_kWh   | 浮動小数点数| 電力消費(積算値)[kWh]                 |
 
 </div>
 
