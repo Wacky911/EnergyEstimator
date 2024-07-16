@@ -38,12 +38,11 @@ $$
 ## 使用方法
 
 1. 車速と勾配プロファイルを記載したinput.csvを用意し、実行ファイルと同じディレクトリに配置します。  
-このinput.csvは任意の手法で作成可能ですが、mapboxAPIを使用してinput.csvを生成するツールを別途公開しています。詳細は[RouteProfileExtractor](https://github.com/Wacky911/RouteProfileExtractor)をご参照ください。  
+このinput.csvは任意の手法で作成しても問題ありませんが、Mapbox APIを使用してinput.csvを生成するツールを別途公開しています。詳細は[RouteProfileExtractor](https://github.com/Wacky911/RouteProfileExtractor)をご参照ください。  
 
-<div style="text-align: center;">
+<br>
+
 input.csvの構成は以下の通りです。
-
-
 | 列名       | データ型    | 説明                       |
 |------------|-----------|----------------------------|
 | time       | 浮動小数点数| 時間[sec]              　  |
@@ -52,7 +51,7 @@ input.csvの構成は以下の通りです。
 
 <br>
 
-#### サンプルデータ
+サンプルデータ
 | time | speed | gradient |
 |------|-------|----------|
 | 0    | 0     | 0        |
@@ -60,14 +59,11 @@ input.csvの構成は以下の通りです。
 | 4.524| 11.7  | -0.468451|
 | 5.508| 11.7  | -0.58387 |
 | 6.314| 11.7  | 0        |
-</div>
 
 <br>
 <br>
 
 2. プログラム実行後、電力消費計算結果がenergy_consumption.csvとして出力されます。energy_consumption.csvの構成は以下の通りです。  
-
-<div style="text-align: center;">
 
 | 列名       | データ型    | 説明                       |
 |------------|-----------|----------------------------|
@@ -76,8 +72,6 @@ input.csvの構成は以下の通りです。
 | gradient_rad   | 浮動小数点数| 勾配[rad]                  |
 | energy_consumption_kw   | 浮動小数点数| 電力消費(瞬時値)[kw]                  |
 | energy_consumption_kWh   | 浮動小数点数| 電力消費(積算値)[kWh]                  |
-</div>
-
 
 <br>
 <br>
