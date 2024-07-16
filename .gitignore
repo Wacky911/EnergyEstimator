@@ -1,0 +1,33 @@
+# macOS固有
+.DS_Store
+
+# JSON設定ファイル
+*.json
+
+# YAML設定ファイル
+*.yml
+
+# macOSアプリケーション関連ファイル
+info.plist
+
+# ビルド成果物
+main
+
+# その他
+*.csv
+.env
+
+# buildフォルダ内のすべてのファイルを無視
+/build/*
+
+# buildフォルダそのものは無視しない
+!build/
+
+# .gitkeepは無視しない
+!build/.gitkeep
+
+# samplesフォルダはサブフォルダのファイル含め無視しない
+!samples/**
+
+# samplesフォルダ内の.DS_Storeは無視
+samples/**/.DS_Store
