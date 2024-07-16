@@ -38,9 +38,9 @@ $$
 ## 使用方法
 
 1. 車速と勾配プロファイルを記載したinput.csvを用意し、実行ファイルと同じディレクトリに配置します。 
-   input.csvの構成は以下の通りです。
+このinput.csvは任意の手法で作成可能ですが、mapboxAPIを使用してinput.csvを生成するツールを別途公開しています。詳細は[RouteProfileExtractor](https://github.com/Wacky911/RouteProfileExtractor)をご参照ください。  
 
-<br>
+input.csvの構成は以下の通りです。
 
 | 列名       | データ型    | 説明                       |
 |------------|-----------|----------------------------|
@@ -48,7 +48,6 @@ $$
 | speed      | 浮動小数点数| 車速[m/s]                  |
 | gradient   | 浮動小数点数| 勾配[rad]                  |
  
-<div style="text-align: center;">
 <br>
 
 #### サンプルデータ
@@ -60,17 +59,10 @@ $$
 | 5.508| 11.7  | -0.58387 |
 | 6.314| 11.7  | 0        |
 
-</div>
-<br>
-
-また、mapboxAPIを使用してinput.csvを生成するツールを別途公開しています。詳細はRouteProfileExtractor<link>をご参照ください。
-
 <br>
 <br>
 
-2. プログラム実行後、電力消費計算結果がenergy_consumption.csvとして出力されます。energy_consumption.csvの構成は以下の通りです。
-
-<br>
+2. プログラム実行後、電力消費計算結果がenergy_consumption.csvとして出力されます。energy_consumption.csvの構成は以下の通りです。  
 
 | 列名       | データ型    | 説明                       |
 |------------|-----------|----------------------------|
@@ -83,7 +75,7 @@ $$
 <br>
 <br>
 
-3. CSV出力後、電力消費計算結果がmatplotlibによってプロットされます。
+3. CSV出力後、電力消費算出結果がmatplotlibによってプロットされます。
 
 <br>
 
