@@ -42,16 +42,28 @@ $$
 
 <br>
 
-input.csvの構成は以下の通りです。
+<div align="center">
+input.csvの構成
+</div>
+
+<div align="center">
+
 | 列名       | データ型    | 説明                       |
 |------------|-----------|----------------------------|
 | time       | 浮動小数点数| 時間[sec]              　  |
 | speed      | 浮動小数点数| 車速[m/s]                  |
 | gradient   | 浮動小数点数| 勾配[rad]                  |
 
+</div>
+
 <br>
 
+<div align="center">
 サンプルデータ
+</div>
+
+<div align="center">
+
 | time | speed | gradient |
 |------|-------|----------|
 | 0    | 0     | 0        |
@@ -60,10 +72,14 @@ input.csvの構成は以下の通りです。
 | 5.508| 11.7  | -0.58387 |
 | 6.314| 11.7  | 0        |
 
+</div>
+
 <br>
 <br>
 
 2. プログラム実行後、電力消費算出結果がenergy_consumption.csvとして出力されます。energy_consumption.csvの構成は以下の通りです。  
+
+<div align="center">
 
 | 列名       | データ型    | 説明                       |
 |------------|-----------|----------------------------|
@@ -72,6 +88,8 @@ input.csvの構成は以下の通りです。
 | gradient_rad   | 浮動小数点数| 勾配[rad]                  |
 | energy_consumption_kw   | 浮動小数点数| 電力消費(瞬時値)[kw]                  |
 | energy_consumption_kWh   | 浮動小数点数| 電力消費(積算値)[kWh]                  |
+
+</div>
 
 <br>
 <br>
